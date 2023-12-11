@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font asome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar  -->
+    <nav class="fixed top-0 left-0 w-full bg-pink-50 z-50">
+        <div class="container mx-auto">
+            <!-- topper nav -->
+            <div class="hidden lg:block">
+                <div class="flex justify-between px-4 items-center md:visible">
+                    <div>
+                        <h1 class="font-bold text-gray-500">Free delivery all orders over $50.order your food now</h1>
+                    </div>
+                    <div class="flex gap-10 items-center">
+                        <div class="flex items-center gap-3">
+                            <i class="fa-regular fa-envelope text-lg"></i>
+                            <h2 class="font-bold text-sm text-gray-600">Subscrine & Get 10% off</h2>
+                        </div>
+                        <div class="space-x-4">
+                            <i class="fa-brands fa-facebook-f text-orange-500 cursor-pointer text-lg"></i>
+                            <i class="fa-brands fa-square-twitter cursor-pointer text-lg"></i>
+                            <i class="fa-brands fa-instagram cursor-pointer text-lg"></i>
+                            <i class="fa-brands fa-pinterest-p cursor-pointer text-lg"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- bottom nav  -->
+            <div class="">
+                <div class="flex justify-between items-center px-2 py-3">
+                    <div>
+                        <h1 class="text-2xl font-bold bg-orange-600 text-white px-4 rounded-lg py-`">Qichen</h1>
+                    </div>
+                    <div class="absolute md:relative bg-pink-50 text-center mt-[360px] w-56 md:w-auto md:mt-0 py-10 md:py-0 transition duration-300 -translate-x-[500px] md:-translate-x-0" id="barsMenu">
+                        <ul class="md:flex font-bold md:space-x-5 lg:space-x-10 space-y-10 md:space-y-0">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#shop">Shop</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#">Pages</a></li>
+                        </ul>
+                        <i class="fa-solid fa-xmark md:hidden absolute top-0 right-0 p-2 bg-white text-2xl" id="closeBtn"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-bars mr-5 text-xl cursor-pointer md:hidden" id="bars"></i>
+                        <a class="text-white bg-orange-600 px-4 py-2 rounded-full" href="#">BOOK A TABLE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="w-full h-56 top-0 left-0 fixed">hello</div>
+    <!-- header start  -->
+    <header class="bg-pink-100 pb-2">
+        <div class="container mx-auto">
+            <div class="flex flex-col justify-between md:flex-row items-center">
+                <!-- item 1  -->
+                <div class="text-center">
+                    <h1 class="text-4xl font-bold lg:text-7xl leading-[50px] lg:tracking-[10px] md:tracking-[6px] tracking-[3px]">Crispy Chicken Burger</h1>
+                    <p class="text-sm mt-3 lg:mt-10">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Quasi voluptas</p>
+                    <button class="font-bold bg-orange-600 hover:bg-orange-400 text-white px-4 py-2 rounded-xl lg:mt-10 mt-5">ORDER NOW</button>
+                </div>
+                <!-- item 2  -->
+                <img class="w-[400px] mt-4 md:mt-20 rounded-md" src="./pic/hero.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- main start here  -->
+    <main>
+        <!-- section 1 start here  -->
+        <section class="mt-5 pb-5" id="home">
+            <div class="container mx-auto">
+                <!-- item  -->
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <!-- sub item 1  -->
+                    <div class="px-4">
+                        <h3 class="text-center font-bold text-orange-700">ABOUT QUCHEN</h3>
+                        <h1 class="text-3xl font-bold text-gray-700 lg:text-6xl mt-3 text-center">The best tasty & <br> Yamee food and <br> chief based on <br> italiano</h1>
+                        <p class="text-sm mt-5">sit amet consectetur adipisicing elit. Tempore laboriosam <br> voluptas mini dolorum tempora aliquid vel, corporis <br> consectetur voluptatibus laborum velit possimus, <br> omnis accusamus odit.</p>
+                        <div class="mt-4 text-center">
+                            <a href="#" class="bg-orange-600 hover:bg-orange-700 px-4 py-2 rounded-xl text-white mt-4">LEARN MORE</a>
+                        </div>
+                    </div>
+                    <!-- sum item 2  -->
+                    <div class="mt-5 flex gap-5">
+                        <img class=" md:w-72 w-36" src="./pic/pexels-photo-11519280.jpeg" alt="">
+                        <img class=" md:w-72 w-36" src="./pic/pexels-photo-2454533.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 2 start here  -->
+        <section class="py-2" id="menu">
+            <div class="container mx-auto">
+                <!-- item  -->
+                <div class="flex flex-col items-center px-4 md:flex-row justify-between gap-5">
+                    <!-- sub item  -->
+                    <div class="grid place-content-center gap-5 grid-cols-2 xl:grid-cols-3 px-2">
+                        <img class="w-56 h-44" src="./pic/1.jpg" alt="">
+                        <img class="w-56 h-44" src="./pic/6.jpg" alt="">
+                        <img class="w-56 h-44" src="./pic/3.jpg" alt="">
+                        <img class="w-56 h-44" src="./pic/4.jpg" alt="">
+                        <img class="w-56 h-44" src="./pic/5.jpg" alt="">
+                        <img class="w-56 h-44" src="./pic/2.jpg" alt="">
+                    </div>
+                    <!-- sub item  -->
+                    <div>
+                        <div class="flex gap-10 mr-5 mt-5 items-center">
+                            <img class="w-28 rounded-xl bg-pink-100 shadow-xl shadow-pink-200" src="./pic/burger.jpeg" alt="">
+                            <div class="pb-1">
+                                <h1 class="md:first-letter: md:text-2xl font-semibold">Hamburger.......... <span class="text-orange-600">$25</span> </h1>
+                                <p class="text-sm mt-2">Roasted langoustine consomme</p>
+                                <div class="text-[10px] mt-2">
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="ml-4">(5k Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-10 mr-5 mt-5 items-center">
+                            <img class="w-28 rounded-xl bg-pink-100 shadow-xl shadow-pink-200" src="./pic/pizza.jpeg" alt="">
+                            <div class="pb-1">
+                                <h1 class="md:first-letter: md:text-2xl font-semibold">Pizza.......... <span class="text-orange-600">$65</span> </h1>
+                                <p class="text-sm mt-2">Roasted langoustine consomme</p>
+                                <div class="text-[10px] mt-2">
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="ml-4">(5k Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-10 mr-5 mt-5 items-center">
+                            <img class="w-28 rounded-xl bg-pink-100 shadow-xl shadow-pink-200" src="./pic/chikenwings.jpeg" alt="">
+                            <div class="pb-1">
+                                <h1 class="md:first-letter: md:text-2xl font-semibold">Chiken Wings.... <span class="text-orange-600">$25</span> </h1>
+                                <p class="text-sm mt-2">Roasted langoustine consomme</p>
+                                <div class="text-[10px] mt-2">
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="ml-4">(5k Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-10 mr-5 mt-5 items-center">
+                            <img class="w-28 rounded-xl bg-pink-100 shadow-xl shadow-pink-200" src="./pic/seafoodpizza.jpeg" alt="">
+                            <div class="pb-1">
+                                <h1 class="md:first-letter: md:text-2xl font-semibold">Seafood Burger... <span class="text-orange-600">$25</span> </h1>
+                                <p class="text-sm mt-2">Roasted langoustine consomme</p>
+                                <div class="text-[10px] mt-2">
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star text-orange-600"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="ml-4">(5k Reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 3  -->
+        <section class="mt-5" id="about">
+            <div class="container mx-auto">
+                <!-- item  -->
+                <div class="grid place-content-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <!-- item 1  -->
+                    <div class="flex flex-col items-center bg-pink-50 py-4 rounded-xl" id="modambtn">
+                        <img class="w-56 h-56 rounded-full" src="./pic/pizza.jpeg" alt="">
+                        <div class="text-center text-sm mt-2">
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <h1 class=" md:text-lg ">Delicious Vegetable <br> Italian Pizza</h1>
+                            <h3 class="text-lg mt-1 font-semibold text-orange-600">$253.59</h3>
+                        </div>
+                    </div>
+                    <!-- item 2  -->
+                    <div class="flex flex-col items-center bg-pink-50 py-4 rounded-xl" id="modambtn">
+                        <img class="w-56 h-56 rounded-full" src="./pic/burger.jpeg" alt="">
+                        <div class="text-center text-sm mt-2">
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <h1 class=" md:text-lg "> Chease Burger <br> Onion</h1>
+                            <h3 class="text-lg mt-1 font-semibold text-orange-600">$152.59</h3>
+                        </div>
+                    </div>
+                    <!-- item 3  -->
+                    <div class="flex flex-col items-center bg-pink-50 py-4 rounded-xl" id="modambtn">
+                        <img class="w-56 h-56 rounded-full" src="./pic/boardpitachiken.jpg" alt="">
+                        <div class="text-center text-sm mt-2">
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <h1 class=" md:text-lg">Board Pita Chiken<br> Tomato lettuch</h1>
+                            <h3 class="text-lg mt-1 font-semibold text-orange-600">$253.59</h3>
+                        </div>
+                    </div>
+                    <!-- item 4  -->
+                    <div class="flex flex-col items-center bg-pink-50 py-4 rounded-xl" id="modambtn">
+                        <img class="w-56 h-56 rounded-full" src="./pic/chikenwings.jpeg" alt="">
+                        <div class="text-center text-sm mt-2">
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <h1 class=" md:text-lg">Backed chiken<br> Wings</h1>
+                            <h3 class="text-lg mt-1 font-semibold text-orange-600">$253.59</h3>
+                        </div>
+                    </div>
+                    <!-- item 5  -->
+                    <div class="flex flex-col items-center bg-pink-50 py-4 rounded-xl" id="modambtn">
+                        <img class="w-56 h-56 rounded-full" src="./pic/seafoodpizza.jpeg" alt="">
+                        <div class="text-center text-sm mt-2">
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <h1 class=" md:text-lg">Delicious Vegetable <br> Italian Pizza</h1>
+                            <h3 class="text-lg mt-1 font-semibold text-orange-600">$253.59</h3>
+                        </div>
+                    </div>
+                    <!-- item 6  -->
+                    <div class="flex flex-col items-center bg-pink-50 py-4 rounded-xl" id="modambtn">
+                        <img class="w-56 h-56 rounded-full" src="./pic/carbs.jpeg" alt="">
+                        <div class="text-center text-sm mt-2">
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <h1 class=" md:text-lg">Fresh Carbs <br>Seafood</h1>
+                            <h3 class="text-lg mt-1 font-semibold text-orange-600">$253.59</h3>
+                        </div>
+                    </div>
+                    <!-- item 7  -->
+                    <div class="flex flex-col items-center bg-pink-50 py-4 rounded-xl" id="modambtn">
+                        <img class="w-56 h-56 rounded-full" src="./pic/seafoodpizza.jpeg" alt="">
+                        <div class="text-center text-sm mt-2">
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <h1 class=" md:text-lg">Delicious Vegetable <br> Italian Pizza</h1>
+                            <h3 class="text-lg mt-1 font-semibold text-orange-600">$253.59</h3>
+                        </div>
+                    </div>
+                    <!-- item 8  -->
+                    <div class="flex flex-col items-center bg-pink-50 py-4 rounded-xl" id="modambtn">
+                        <img class="w-56 h-56 rounded-full" src="./pic/sandwitch.jpg" alt="">
+                        <div class="text-center text-sm mt-2">
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <h1 class="md:text-lg">Footlong Sandwitch</h1>
+                            <h3 class="text-lg mt-1 font-semibold text-orange-600">$440.50</h3>
+                        </div>
+                    </div>
+                    <!-- item 9  -->
+                    <div class="flex flex-col items-center bg-pink-50 py-4 rounded-xl" id="modambtn">
+                        <img class="w-56 h-56 rounded-full" src="./pic/chikenBiriani.webp" alt="">
+                        <div class="text-center text-sm mt-2">
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <i class="fa-solid fa-star text-orange-600 text-xs"></i>
+                            <h1 class=" md:text-lg">Chiken Biriyani<br> Served</h1>
+                            <h3 class="text-lg mt-1 font-semibold text-orange-600">$253.59</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 4  -->
+        <section id="shop">
+            <div class="container mx-auto flex place-content-center py-4">
+                <div class="grid items-center justify-center px-2 gap-5 md:grid-cols-2">
+                    <!-- item 1  -->
+                    <div class="flex gap-10 mr-5 mt-5 items-center">
+                        <img class="w-28 h-28 rounded-xl bg-pink-100 shadow-xl shadow-pink-200" src="./pic/redcrabs.jpg" alt="">
+                        <div class="pb-1">
+                            <h1 class="lg:text-2xl font-semibold">Red King Crabs....... <span class="text-orange-600">$25</span> </h1>
+                            <p class="text-sm mt-2">Roasted langoustine consomme</p>
+                            <div class="text-xs mt-2">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="ml-4">(5k Reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 2  -->
+                    <div class="flex gap-10 mr-5 mt-5 items-center">
+                         <img class="w-28 h-28 rounded-xl bg-pink-100 shadow-xl shadow-pink-200" src="./pic/bostonlobstar.jpg" alt="">
+                        <div class="pb-1">
+                            <h1 class="lg:text-2xl font-semibold">Booston Lobstar....... <span class="text-orange-600">$25</span> </h1>
+                            <p class="text-sm mt-2">Roasted langoustine consomme</p>
+                            <div class="text-xs mt-2">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="ml-4">(5k Reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 3  -->
+                    <div class="flex gap-10 mr-5 mt-5 items-center">
+                        <img class="w-28 h-28 rounded-xl bg-pink-100 shadow-xl shadow-pink-200" src="./pic/Shrimp-food.jpg" alt="">
+                        <div class="pb-1">
+                            <h1 class="lg:text-2xl font-semibold">Shrim Food prawns... <span class="text-orange-600">$25</span> </h1>
+                            <p class="text-sm mt-2">Roasted langoustine consomme</p>
+                            <div class="text-xs mt-2">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="ml-4">(5k Reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 4  -->
+                    <div class="flex gap-10 mr-5 mt-5 items-center">
+                        <img class="w-28 h-28 rounded-xl bg-pink-100 shadow-xl shadow-pink-200" src="./pic/stremedCrabs.jpg" alt="">
+                        <div class="pb-1">
+                            <h1 class="lg:text-2xl font-semibold">Stream Curbs........ <span class="text-orange-600">$25</span> </h1>
+                            <p class="text-sm mt-2">Roasted langoustine consomme</p>
+                            <div class="text-xs mt-2">
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star text-orange-600"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="ml-4">(5k Reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 5 start here  -->
+        <section class="py-5" id="blog">
+            <div class="container mx-auto">
+                <div class="grid place-content-center">
+                    <!-- item  -->
+                    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                        <!-- item 1  -->
+                        <div class="border pb-1">
+                            <img class="w-72" src="./pic/ribeye-steak-recipe.jpg" alt="">
+                            <div class="text-center mt-2">
+                                <h1 class="text-lg font-semibold">Rib-Eye Steaks</h1>
+                                <p class="text-sm mt-1 text-gray-500">Few things are better than a <br> Properply grilled steack.</p>
+                                <h3 class="text-lg text-orange-600 mt-3">$15.69</h3>
+                                <button class="text-white py-2 rounded-xl transition duration-300 hover:scale-105 hover:-translate-y-1 px-4 bg-orange-600 mt-3">Add To Cart</button>
+                            </div>
+                        </div>
+                        <!-- item 2  -->
+                        <div class="border pb-1">
+                            <img class="w-72 h-72" src="./pic/Sirloin-Steak.jpg" alt="">
+                            <div class="text-center mt-2">
+                                <h1 class="text-lg font-semibold">Top Sirloin Steaks</h1>
+                                <p class="text-sm mt-1 text-gray-500">Few things are better than a <br> Properply grilled steack.</p>
+                                <h3 class="text-lg text-orange-600 mt-3">$15.69</h3>
+                                <button class="text-white py-2 rounded-xl transition duration-300 hover:scale-105 hover:-translate-y-1 px-4 bg-orange-600 mt-3">Add To Cart</button>
+                            </div>
+                        </div>
+                        <!-- item 3  -->
+                        <div class="border pb-1">
+                            <img class="w-72" src="./pic/t-bone-steak-grill-1200x1200-1.jpg" alt="">
+                            <div class="text-center mt-2">
+                                <h1 class="text-lg font-semibold">T-Bone Steaks</h1>
+                                <p class="text-sm mt-1 text-gray-500">Few things are better than a <br> Properply grilled steack.</p>
+                                <h3 class="text-lg text-orange-600 mt-3">$15.69</h3>
+                                <button class="text-white py-2 rounded-xl transition duration-300 hover:scale-105 hover:-translate-y-1 px-4 bg-orange-600 mt-3">Add To Cart</button>
+                            </div>
+                        </div>
+                        <!-- item 4  -->
+                        <div class="border pb-1">
+                            <img class="w-72" src="./pic/Stipt-steaksq.jpg" alt="">
+                            <div class="text-center mt-2">
+                                <h1 class="text-lg font-semibold">Strip Steaks</h1>
+                                <p class="text-sm mt-1 text-gray-500">Few things are better than a <br> Properply grilled steack.</p>
+                                <h3 class="text-lg text-orange-600 mt-3">$15.69</h3>
+                                <button class="text-white py-2 rounded-xl transition duration-300 hover:scale-105 hover:-translate-y-1 px-4 bg-orange-600 mt-3">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer start here  -->
+    <footer class="bg-gray-950 py-3 mt-2">
+        <div class="container mx-auto">
+            <div class="flex place-content-center mt-3">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-10 lg:gap-[100px]">
+                    <div>
+                        <h1 class="text-lg font-bold text-gray-200">Quick Links</h1>
+                        <ul class="mt-4 text-sm font-semibold text-gray-400">
+                            <li>About company</li>
+                            <li>Some Shop</li>
+                            <li>Our Menu</li>
+                            <li>Shop</li>
+                            <li>Recipe</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-bold text-gray-200">Product</h1>
+                        <ul class="mt-4 text-sm font-semibold text-gray-400">
+                            <li>Humbergur</li>
+                            <li>Chiken Burger</li>
+                            <li>Vegetable Pizza</li>
+                            <li>Chiken Roll</li>
+                            <li>Ice Cream</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-bold text-gray-300">Juich</h1>
+                        <ul class="mt-4 text-sm font-semibold text-gray-400">
+                            <li>oragin juich</li>
+                            <li>Lemon juich</li>
+                            <li>Multon tikka</li>
+                            <li>Seafoods</li>
+                        </ul>
+                    </div>
+                    <div class="md:mt-8 ">
+                        <h1 class="text-sm font-bold text-gray-400">call for order</h1>
+                        <h3 class="text-sm font-bold text-gray-400">9798724724</h3>
+                        <div class="text-sm font-bold text-gray-400">
+                            <h3>location</h3>
+                            <p>119 dhaka kishorganj</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <h1 class="text-gray-400">@copyrith 2022 Qichen all Right</h1>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script file  -->
+    <script>
+        let barsMenu = document.getElementById('barsMenu')
+        let closeBtn = document.getElementById('closeBtn')
+        document.getElementById('bars').addEventListener('click',function(){
+            barsMenu.classList.toggle('-translate-x-[500px]')
+        })
+        closeBtn.addEventListener('click',function(){
+            barsMenu.classList.add('-translate-x-[500px]')
+        })
+    </script>
+</body>
+</html>
